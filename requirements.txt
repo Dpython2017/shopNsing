@@ -13,6 +13,7 @@ psycopg2
 pycrypto==2.6.1
 python-redis-lock==3.7.0
 pytz==2020.5
+redis==3.5.3
 redis-cache==0.1.5
 redis-structures==0.1.7
 requests==2.25.1
