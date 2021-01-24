@@ -1,7 +1,7 @@
 
 CACHES = {
     "default": {
-        "BACKEND": "redis_cache.RedisCache",
+        "BACKEND": "redis_cache.cache.RedisCache",
         "LOCATION": "redis://:p2731f5b2be8cdcd721676ff0cde2c253569e4955776f5e31b1ed4b9c36be68d7@ec2-54-224-171-77.compute-1.amazonaws.com:23109",
     }
 }
