@@ -1,5 +1,7 @@
 import os
+from urllib.parse import urlparse
 
+redis_url = urlparse(os.environ.get('REDIS_URL', 'redis://localhost:6379'))
 CACHES = {
     "default": {
          "BACKEND": "redis_cache.RedisCache",
