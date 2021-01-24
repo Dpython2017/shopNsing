@@ -1,9 +1,9 @@
 import os
+
 CACHES = {
     "default": {
-        "BACKEND": "redis_cache.RedisCache",
-        "LOCATION": "{host}:{port}".format(host='ec2-54-224-171-77.compute-1.amazonaws.com',
-                                           port='23109'),
+         "BACKEND": "redis_cache.RedisCache",
+         "LOCATION": os.environ.get('REDIS_URL'),
     }
 }
 # Public API Config
