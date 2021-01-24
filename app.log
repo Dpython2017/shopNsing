@@ -1,0 +1,36 @@
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:root:Running method get , response is:('User input is empty',)
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is -[]',)
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:root:Running method get , response is:('Page count is - 2 and Category Entered is -smile',)
+INFO:root:Running method get , response is:('Page count is - 3 and Category Entered is -smile',)
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is -pots',)
+INFO:root:Running method get , response is:('Page count is - 2 and Category Entered is -pots',)
+INFO:root:Running method get , response is:('Page count is - 3 and Category Entered is -pots',)
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/app/api.py changed, reloading.
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is - potg',)
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is - fr',)
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is - smile',)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=1 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bee36700>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=2 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef57700>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:('Page count is - 2 and Category Entered is - smile',)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=2 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef57df0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef572e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:('Page count is - 3 and Category Entered is - smile',)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=3 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef57c40>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef8dd90>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:('Page count is - 4 and Category Entered is - smile',)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=4 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bef8de20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bee262e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:root:Running method get , response is:('Page count is - 5 and Category Entered is - smile',)
+INFO:root:Running method get , response is:("Caught an exception - HTTPSConnectionPool(host='api.musixmatch.com', port=443): Max retries exceeded with url: /ws/1.1/track.search?format=jsonp&callback=callback&quorum_factor=1&page_size=2&q_lyrics=smile&page=2&apikey=c84b0eb027afd7ec974d2bd2073da031&page=5 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe8bedcb760>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))",)
+INFO:django.utils.autoreload:/Users/dimplemathew/Desktop/projects/shopNsing/shopNsing/config.py changed, reloading.
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is - smile',)
+WARNING:django.request:Not Found: /
+INFO:root:Running method get , response is:('Page count is - 1 and Category Entered is - smile',)
