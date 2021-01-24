@@ -1,7 +1,7 @@
 from django.conf import settings
 from rest_framework import views
 from rest_framework.response import Response
-from django.core.cache import caches
+from django.core.cache import cache
 import requests
 from .logging import logs
 from .helper import jsonptojson
@@ -12,7 +12,7 @@ import json
 class UserCategory(views.APIView):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.cache = caches["default"]
+        self.cache = cache
 
     def get(self, request) -> Response:
         """
