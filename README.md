@@ -14,7 +14,7 @@ To run the application manually:<br>
 4.Run development server
     - python manage.py runserver
     
-**Endpoints
+<b>Endpoints</b>
 POST API to validate a slot with a finite set of values.
  1. category?category={}
  Requires the category for which tracks will be returned
