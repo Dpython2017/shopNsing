@@ -50,10 +50,11 @@ class UserCategory(views.APIView):
 
     def __get_tack(self, category):
         track_url = settings.MUSIXMATCH_URL + "track.search"
-        filters = "?format=jsonp&callback=callback&quorum_factor=1&page_size=2"
+        page_size = 2 if self.cache.get("page") == 1 else 1
+        filters = "?format=jsonp&callback=callback&quorum_factor=1&page_size={}".format(page_size)
         page = self.cache.get("page")
         track_list = []
-        counter = 0
+
         add_log = logs(self.get)
         try:
             track_payload = requests.get(url=track_url + filters + "&q_lyrics={}&page={}&apikey={}&page={}"
@@ -64,21 +65,16 @@ class UserCategory(views.APIView):
             tracks = response['message']['body']['track_list']
 
             for track in tracks:
-                counter += 1
                 lyrics = get_lyrics(track['track']['track_id'])
                 track_name = track['track']['track_name']
                 artist = track['track']['artist_name']
 
-                obj = {
-                        counter:
+                track_list.append(
                         {
                             'track_name': track_name,
                             'artist': artist,
                             'lyrics': lyrics
-                        }
-                }
-
-                track_list.append(obj)
+                        })
             self.cache.set(category, track_list)
 
         except Exception as e:
